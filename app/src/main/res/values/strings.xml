@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">SanDiegoGuideApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="places">SIGHTSEEINGS</string>
+    <string name="restaurants">RESTAURANTS</string>
+
+
+    <!--BALBOA-->
+    <string name="balboa_park_title">BALBOA PARK</string>
+    <string name="balboa_park_description">
+"Balboa Park is a 1,200-acre (490 ha) urban cultural park in San Diego, California, United States.[3]\
+In addition to open space areas, natural vegetation zones, green belts\
+gardens, and walking paths, it contains museums, several theaters\
+, and the world-famous San Diego Zoo.There are also many recreational facilities and\
+several gift shops and restaurants within the boundaries of the park.\
+Placed in reserve in 1835, the park's site is one of the\
+oldest in the United States dedicated\
+to public recreational use. Balboa Park is managed and maintained by the\
+Parks and Recreation Department of the City of San Diego."\
+    </string>
+
+    <!--SAN DIEGO ZOO-->
+    <string name="san_diego_zoo_title">SAN DIEGO ZOO</string>
+    <string name="san_diego_zoo_description">"The San Diego Zoo is a zoo in Balboa Park, San Diego,\
+California, housing over 3,700 animals of more than 650 species and subspecies.\
+[1] Its parent organization, San Diego Zoo Global, is one of the largest[better source needed]\
+zoological membership associations in the world, with more than 250,000 member households\
+and 130,000 child memberships, representing more than a half million people.\
+[6] The San Diego Zoo was a pioneer in the concept of open-air,\
+cageless exhibits that re-create natural animal habitats."</string>
+
+    <!--SEAWORLD-->
+    <string name="seaworld">Seaworld San Diego</string>
+    <string name="seaworld_san_diego_description">"SeaWorld San Diego is an animal theme park,\
+oceanarium, outside aquarium, and marine mammal park, located in San Diego,\
+California, United States." </string>
+
+
+    <!--SEAWORLD-->
+    <string name="coronado">Coronado Beach</string>
+    <string name="coronado_description">"Coronado, also known as Coronado Island,\
+is a resort city located in San Diego County, California, across and around San Diego Bay\
+from downtown San Diego.[8] Its population was 24,697 at the 2010 census,\
+[5][6] up from 24,100 at the 2000 census. It is part of the San Diego County, California."
+    </string>
+
+    /*Retaurant Sections */
+
+    <!--CRAB_HUT-->
+    <string name="crab_hut">Crab Hut</string>
+    <string name="crab_hut_description">"Crab Hut was founded in 2007 by a family that loves food\
+and beer, with one purpose to bring San Diego some good ole' Southern sass and flavor.\
+Our goal is to redefine the eating out experience and engaging the guest with hands on food,\
+while keeping it fresh with products grown and rise locally here in San Diego. "
+    </string>
+
+
+    <!--Sushi Ota-->
+    <string name="sushi_ota">Sushi Ota</string>
+    <string name="sushi_ota_description">"Crab Hut was founded in 2007 by a family that loves food\
+and beer, with one purpose to bring San Diego some good ole' Southern sass and flavor.\
+Our goal is to redefine the eating out experience and engaging the guest with hands on food,\
+while keeping it fresh with products grown and rise locally here in San Diego. "
+    </string>
+
+
+
+    <string name="buga_bbq">Buga BBQ</string>
+    <string name="buga_bbq_description">"At Buga Korean BBQ Restaurant,\
+we serve a range of food and beverage items, choose from our delectable selection of various \
+high-quality beef, chicken, pork or seafood, then cook it on our state of the art grills, right at your table.\"
+    </string>
+
+
+
+
+</resources>
