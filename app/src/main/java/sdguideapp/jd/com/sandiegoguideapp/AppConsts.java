@@ -8,6 +8,8 @@ public class AppConsts {
 
     public static final int SIGHT_SEEING_POS = 0;
     public static final int RESTAURANTS_POS = 1;
+    public static final int EVENT_POS = 2;
+    public static final int ARTIST_POS = 3;
 
     public static final String POS_KEY = "pos";
 

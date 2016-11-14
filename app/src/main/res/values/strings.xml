@@ -3,8 +3,10 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="places">SIGHTSEEINGS</string>
-    <string name="restaurants">RESTAURANTS</string>
+    <string name="places">SCENES</string>
+    <string name="restaurants">FOODS</string>
+    <string name="events">EVENTS</string>
+    <string name="artist">ARTISTS</string>
 
 
     <!--BALBOA-->
@@ -67,10 +69,39 @@ while keeping it fresh with products grown and rise locally here in San Diego. "
 
 
 
+
     <string name="buga_bbq">Buga BBQ</string>
     <string name="buga_bbq_description">"At Buga Korean BBQ Restaurant,\
 we serve a range of food and beverage items, choose from our delectable selection of various \
 high-quality beef, chicken, pork or seafood, then cook it on our state of the art grills, right at your table.\"
+    </string>
+
+    <!--Del-mar Fair-->
+    <string name="delmar_fair">DelMar Fair</string>
+    <string name="delmar_fair_description">"Did you know San Diego is home to the largest county fair in the United States?\
+Every summer, more than 1.6 million visitors flock to the local attraction.\
+For many, the annual fair is a family tradition —\
+a familiar place to gather to learn, eat, ride, watch, dance and most of all, to participate!"
+    </string>
+
+    <!--Del-mar Fair-->
+    <string name="comic_con">Comic Con</string>
+    <string name="comic_con_description">"Comic-Con International: San Diego began in 1970 when a group of comics,\
+movie, and science fiction fans -- including the late Shel Dorf, Ken Krueger, and Richard Alf\
+-- banded together to put on the first comic book convention in southern California."
+    </string>
+
+    <!--Iron Butterfly-->
+    <string name="iron_butterfly">Iron Butterfly</string>
+    <string name="iron_butterfly_description">Iron Butterfly is an American rock band best known for the 1968 hit "In-A-Gadda-Da-Vida",\
+providing a dramatic sound that led the way towards the development of hard rock and heavy metal music.\
+    </string>
+
+    <!--Drive Like Jehu-->
+    <string name="drive_like_jehu">Drive Like Jehu</string>
+    <string name="drive_like_jehu_description">"Drive Like Jehu is an American post-hardcore band from San Diego active from 1990 to 1995
+Formed by rhythm guitarist and vocalist Rick Froberg and lead guitarist John Reis following the breakup of their band Pitchfork,\
+the band's lineup also included bassist Mike Kennedy and drummer Mark Trombino."
     </string>
 
 

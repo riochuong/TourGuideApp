@@ -9,7 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 /**
@@ -43,6 +42,16 @@ public class PopularFragment extends Fragment {
             case AppConsts.RESTAURANTS_POS:
                 popObjectAdapter = new PopularObjectAdapter(getContext(),
                         initRestaurants());
+                listView.setAdapter(popObjectAdapter);
+                break;
+            case AppConsts.EVENT_POS:
+                popObjectAdapter = new PopularObjectAdapter(getContext(),
+                        initEvents());
+                listView.setAdapter(popObjectAdapter);
+                break;
+            case AppConsts.ARTIST_POS:
+                popObjectAdapter = new PopularObjectAdapter(getContext(),
+                        initArtists());
                 listView.setAdapter(popObjectAdapter);
                 break;
             default:
@@ -89,7 +98,7 @@ public class PopularFragment extends Fragment {
         arrayList.add(
                 new PopularObject(
                         getString(R.string.balboa_park_description),
-                        R.drawable.balboa_park,
+                        R.drawable.balboad_park,
                         getString(R.string.balboa_park_title),
                         ""
                 )
@@ -133,6 +142,65 @@ public class PopularFragment extends Fragment {
                         ""
                 )
         );
+
+        return arrayList;
+    }
+
+
+    /**
+     * Init Events
+     */
+    private ArrayList<PopularObject> initEvents() {
+        ArrayList<PopularObject> arrayList = new ArrayList<>();
+        // add sushi ota
+        arrayList.add(
+                new PopularObject(
+                        getString(R.string.delmar_fair_description),
+                        R.drawable.del_mar_fair,
+                        getString(R.string.delmar_fair),
+                        ""
+                )
+        );
+
+        // Adding buga
+        arrayList.add(
+                new PopularObject(
+                        getString(R.string.comic_con_description),
+                        R.drawable.comic_con,
+                        getString(R.string.comic_con),
+                        ""
+                )
+        );
+
+
+        return arrayList;
+    }
+
+    /**
+     * Init ARtists
+     */
+    private ArrayList<PopularObject> initArtists() {
+        ArrayList<PopularObject> arrayList = new ArrayList<>();
+        // add driver like jehu
+        arrayList.add(
+                new PopularObject(
+                        getString(R.string.drive_like_jehu_description),
+                        R.drawable.drive_like_jehu,
+                        getString(R.string.drive_like_jehu),
+                        ""
+                )
+        );
+
+        // Adding iron butterfly
+        arrayList.add(
+                new PopularObject(
+                        getString(R.string.iron_butterfly_description),
+                        R.drawable.iron_butterfly,
+                        getString(R.string.iron_butterfly),
+                        ""
+                )
+        );
+
 
         return arrayList;
     }

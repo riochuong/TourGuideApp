@@ -34,37 +34,37 @@ public class PopularObject {
         this.urlLink = urlLink;
     }
 
-    /* GETTERS AND SETTERS */
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public void setPictureSource(int pictureSource) {
-        this.pictureSource = pictureSource;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public void setUrlLink(String urlLink) {
-        this.urlLink = urlLink;
-    }
-
     public String getDescription() {
 
         return description;
+    }
+
+    /* GETTERS AND SETTERS */
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public int getPictureSource() {
         return pictureSource;
     }
 
+    public void setPictureSource(int pictureSource) {
+        this.pictureSource = pictureSource;
+    }
+
     public String getTitle() {
         return title;
     }
 
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
     public String getUrlLink() {
         return urlLink;
+    }
+
+    public void setUrlLink(String urlLink) {
+        this.urlLink = urlLink;
     }
 }

@@ -34,6 +34,12 @@ public class PopularFragmentPagerAdapter extends FragmentPagerAdapter {
             case AppConsts.RESTAURANTS_POS:
                 resView = new PopularFragment();
                 break;
+            case AppConsts.EVENT_POS:
+                resView = new PopularFragment();
+                break;
+            case AppConsts.ARTIST_POS:
+                resView = new PopularFragment();
+                break;
             default:
                 Log.d(AppConsts.TAG, "Wrong fragment position. Should not get in default case");
         }
@@ -46,7 +52,7 @@ public class PopularFragmentPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 2;
+        return 4;
     }
 
     /* to get page name with this */
@@ -58,6 +64,10 @@ public class PopularFragmentPagerAdapter extends FragmentPagerAdapter {
                 return (context.getString(R.string.places));
             case AppConsts.RESTAURANTS_POS:
                 return (context.getString(R.string.restaurants));
+            case AppConsts.ARTIST_POS:
+                return (context.getString(R.string.artist));
+            case AppConsts.EVENT_POS:
+                return (context.getString(R.string.events));
             default:
                 Log.d(AppConsts.TAG, " Something wrong. Should not get here");
                 return "";
